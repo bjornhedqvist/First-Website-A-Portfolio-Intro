@@ -1,10 +1,4 @@
-/*
-height, 
-margin, 
-padding, 
-*/
-
-/* insert a background to always take up the whole page from internet*/
+/* insert a background to always take up the whole page*/
 html { 
     background-color: #d3d0cb;
   }
@@ -78,14 +72,14 @@ h4 {
 hr {
     border-color: #9FB1BC;
     margin-bottom: 0px;
-    width: 50%;
+    width: 65%;
 }
 
 p, ul, ol {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     padding: 0 10%;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 ul, ol {
@@ -105,7 +99,7 @@ article {
     box-sizing: border-box;
     height: auto;
     padding: 0 10%;
-    margin: 0px 5%;
+    margin: 0px 2%;
 }
 
 footer {
