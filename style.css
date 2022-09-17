@@ -90,6 +90,8 @@ p, ul, ol {
 
 ul, ol {
     text-align: left;
+    line-height: 20px;
+    padding: 0 20%;
 }
 
 header {
