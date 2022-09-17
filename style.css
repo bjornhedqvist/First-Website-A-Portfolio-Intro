@@ -91,7 +91,7 @@ p, ul, ol {
 ul, ol {
     text-align: left;
     line-height: 20px;
-    padding: 0 20%;
+    padding: 0 15%;
 }
 
 header {
@@ -105,7 +105,7 @@ article {
     box-sizing: border-box;
     height: auto;
     padding: 0 10%;
-    margin: 0px 10%;
+    margin: 0px 5%;
 }
 
 footer {
