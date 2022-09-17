@@ -1,0 +1,178 @@
+/*
+height, 
+margin, 
+padding, 
+*/
+
+/* insert a background to always take up the whole page from internet*/
+html { 
+    background-color: #d3d0cb;
+  }
+
+h1,h2,h3 {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    color: #6E8898;
+}
+
+.tahoe {
+    max-height: 100px;
+    width: auto;
+}
+
+img {
+    box-sizing: border-box;
+    width: 100px;
+    align-items: center;
+    margin-left: 100%;
+    margin-right: 100%;
+}
+
+.bear {
+    color: #033f63;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 1%;
+} 
+
+.centered {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-circle {
+      border-radius: 50%;
+      rotate: -17deg; 
+      margin-left: -10%;
+  }
+
+h1 {
+    height: fit-content;
+    margin-top: 0%;
+    padding-top: 2%;
+    margin-bottom: -2%;
+    color: #033f63;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+hr {
+    border-color: #9FB1BC;
+    margin-bottom: 0px;
+    width: 50%;
+}
+
+p, ul, ol {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 0 10%;
+    margin: 20px 0;
+}
+
+ul, ol {
+    text-align: left;
+}
+
+header {
+    box-sizing: border-box;
+    height: 100px;
+    height: auto;
+    background-image: url("images/mountains.jpeg");
+}
+
+article {
+    box-sizing: border-box;
+    height: auto;
+    padding: 0 10%;
+    margin: 0px 10%;
+}
+
+footer {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    height: auto;
+    line-height: 14px;
+    padding: 2px;
+    background-color: #9FB1BC;
+}
+
+/* LINK styles and BUTTON designs */
+a {
+    font-family: arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+}
+
+/* styled links using pseudo-classes */
+a:link    { color: rgb(27, 99, 232);  }
+a:visited { color: #3e69aa;}
+a:hover   { color: rgb(16, 53, 133); }
+a:active  { color: rgb(75, 39, 235);  }
+a:hover {
+	text-decoration: underline;	
+}
+
+.btn {
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    text-decoration: none;
+    margin: 10px;
+    padding: 6px 12px;
+    border-radius: 6px;
+  }
+
+.btn-contact {
+    font-size: 18px;
+}
+  
+.btn-linkedin {
+    color: #144aa0;
+    background-color: #e2c044;
+    border-color: #e2c044;;
+}
+
+.btn-github {
+    color: #144aa0;
+    background-color: #e2c044;
+    border-color: #e2c044;
+}
+
+.btn-email {
+    color: #fff;
+    background-color: #e2c044;
+    border-color: #e2c044;
+}
+
+/* email link styled differently */
+a[href^="mailto:"] {
+    text-decoration: none;
+    color: rgb(27, 99, 232);
+    background-color: none;
+}
+
