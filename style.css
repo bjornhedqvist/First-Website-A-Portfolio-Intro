@@ -1,35 +1,70 @@
-/* insert a background to always take up the whole page*/
+/* insert a background for whole page of a chosen color from a coolor generated palette*/
 html { 
     background-color: #d3d0cb;
   }
 
-h1,h2,h3 {
+/* adjusting background to the header bar */
+header {
+    box-sizing: border-box;
+    height: auto;
+    background-image: url("images/mountains.jpeg");
+}
+
+/* imported font form google, with palette chosen color and some spacing adjustments */
+h1 {
     font-family: 'Reem Kufi Fun', sans-serif;
     font-size: 64px;
     text-align: center;
-    color: #6E8898;
-}
-
-.tahoe {
-    max-height: 100px;
-    width: auto;
-}
-
-img {
-    box-sizing: border-box;
-    width: 100px;
-    align-items: center;
-    margin-left: 100%;
-    margin-right: 100%;
-}
-
-.bear {
+    height: fit-content;
+    margin-top: 0%;
+    padding-top: 2%;
+    margin-bottom: -2%;
     color: #033f63;
-    margin-left: 1%;
-    margin-right: 1%;
-    padding-top: 1%;
-} 
+}
 
+/* another palette color for other titles, same font from google fonts */
+h2,h3 {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    text-align: center;
+    color: #6E8898;
+    font-size: 22px;
+}
+
+/* a different font from google, as the special line beneath my name */
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+/* padding top make body text paragraphs stay inside the hr lines and look better*/
+p, ul, ol {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 0 9%;
+}
+
+/* extra padding for the lists so their bullets or numbers do not stand further left than the nearby text */
+ul, ol {
+    line-height: 20px;
+    padding: 0 15%;
+}
+
+/* a littl emore padding for articles to keep them centered away from the edges of the page*/
+article {
+    box-sizing: border-box;
+    height: auto;
+    padding: 0 10%;
+}
+
+/* another color from the palette for the hr lines. originally included a specification of bottom margin to make the line come in contact with the footer box, but ultimatley removed it in favor of standard hr margin before the footer box */
+hr {
+    border-color: #9FB1BC;
+    width: 65%;
+}
+
+/* had a bit of difficulty here, but ultimatley with a little research was able to center the images here, so they also adjust their margin relitive to each other depending on thew width of the page */
 .centered {
     display: flex;
     flex-flow: row nowrap;
@@ -39,78 +74,21 @@ img {
     margin-right: auto;
 }
 
+.sized {
+    max-height: 100px;
+    width: auto;
+}
+
+img {
+    align-items: center;
+}
+
+/* another point of difficulty, but eventually managed to work around the corners of the rotated image. the original photo is a bit to the side as a phoptographer's choice, in a more ideal circumstance i would have editied the photo prior to embedding it on the site */
 .img-circle {
       border-radius: 50%;
       rotate: -17deg; 
       margin-left: -10%;
       margin-right: -7%;
-}
-
-h1 {
-    height: fit-content;
-    margin-top: 0%;
-    padding-top: 2%;
-    margin-bottom: -2%;
-    color: #033f63;
-}
-
-h2 {
-    font-size: 22px;
-}
-
-h3 {
-    font-size: 22px;
-}
-
-h4 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-hr {
-    border-color: #9FB1BC;
-    margin-bottom: 0px;
-    width: 65%;
-}
-
-p, ul, ol {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    padding: 0 10%;
-    margin: 10px 0;
-}
-
-ul, ol {
-    text-align: left;
-    line-height: 20px;
-    padding: 0 15%;
-}
-
-header {
-    box-sizing: border-box;
-    height: 100px;
-    height: auto;
-    background-image: url("images/mountains.jpeg");
-}
-
-article {
-    box-sizing: border-box;
-    height: auto;
-    padding: 0 10%;
-    margin: 0px 2%;
-}
-
-footer {
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-    text-align: center;
-    height: auto;
-    line-height: 14px;
-    padding: 2px;
-    background-color: #9FB1BC;
 }
 
 /* LINK styles and BUTTON designs */
@@ -173,3 +151,21 @@ a[href^="mailto:"] {
     background-color: none;
 }
 
+footer {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    height: auto;
+    line-height: 14px;
+    padding: 2px;
+    background-color: #9FB1BC;
+}
+
+.bear {
+    color: #033f63;
+    padding-top: 1%;
+    padding-top: 1%;
+    max-block-size: 50px;
+    align-self: center;
+} 
