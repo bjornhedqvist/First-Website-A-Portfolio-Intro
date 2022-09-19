@@ -1,8 +1,6 @@
 # bjorn-hedqvist-portfolio
 **My Software Developer Portfolio**
 
----
-
 > *A few notes on designs:*
 > 
 > It was important to me that the website was aesthetically pleasing when viewed on a smartphone browser. Before I made the necessary adjustments, the text had too much marginspace on the left an right, and it looked truncated to the middle. As a sort of digital business card, it seemed only right that it looked good when viewed on the go.
