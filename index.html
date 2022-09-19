@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+<!-- head of the HTML, including normalize.css, some fonts from google fonts, and my CSS file -->
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
@@ -20,14 +21,17 @@
 </head>
 
 <body>
+    <!-- header with name and title! -->
     <header>
         <div>
             <h1>Björn Hedqvist</h1>
             <h4>Software Developer</h4>
         </div>
     </header>
+
     <main>
         <div> 
+            <!-- Intro -->
             <article id="introduction">
                 <h2>Hey, I’m Björn!</h2>
                 <section>
@@ -35,15 +39,19 @@
                 </section>
             </article>
         <hr>
+            <!-- About Me -->
             <article id="about-me">
                 <h3>About Me</h3>
+                <!-- Images of my places of origin, representing my personality! and image of me :-) -->
                 <div class="centered">
-                    <img src="images/scuba-dive-lake-tahoe-map.png" alt="a map of Lake Tahoe" class="centered tahoe" >
-                    <img src="images/Bjorn-smiling.JPG" alt="an image of Bjorn smiling" class="img-circle centered tahoe">
-                    <img src="images/Flag-Map-of-Sweden.png" alt="a map of Sweden with the Swedish flag as fill" class="centered tahoe">
+                    <img src="images/scuba-dive-lake-tahoe-map.png" alt="a map of Lake Tahoe" class="centered sized" >
+                    <img src="images/Bjorn-smiling.JPG" alt="an image of Bjorn smiling" class="img-circle centered sized">
+                    <img src="images/Flag-Map-of-Sweden.png" alt="a map of Sweden with the Swedish flag as fill" class="centered sized">
                 </div>
                 <section>
+                    <!-- Background -->
                     <p>Originally from the mountain town of South Lake Tahoe, I grew up always either outside, building things, or making stories. Or I was exploring the wilderness in Sweden, my other home. My openness and vibrance informs everything I do, and after graduating from <strong>UCLA</strong>, my eagerness to make things led me to web development, and I came to sunny San Diego!</p> 
+                    <!-- Mission statement in 3 partd, including unordered list-->
                     <p>As a <em>Thinkful</em> student, I enjoy front-end engineering, as well as collaborating to create software that is:</p> 
                          <ul>
                             <li>Engaging</li>
@@ -52,35 +60,45 @@
                             <li>Inspired</li>
                         </ul> 
                     <p>My focus is on organization and positivity as a force for problem-solving, creation, and change.</p>
+                    <!-- Mission statment end -->
+                    <!-- other interests! including ordered list -->
                     <p>Other than coding, I also love:</p> 
                     <ol>
                         <li>Spending time Outdoors</li>
                         <li>Playing Tabletop RPG's: (a creator and collaborator's nerdy dream!)</li>
                         <li>Engaging in arts and live theater, and even performing!</li>
                     </ol>
+                    <!-- invitation to work on things! -->
                     <p>I’m open to any multitude of opportunities to exercise creative passion, analytical practice, & to grow and develop. I’d love to meet you!</p>
                 </section>
             </article>
         <hr>
+            <!-- Contact Info! -->
             <article id="contact">
                 <h3>Contact</h3>
                 <section class="buttons">
+                    <!-- two psuedocoded links, styled on the css page, and made to match the email button, becuase i like the look of buttons -->
                     <p class="btn btn-linkedin"> <a href="https://www.linkedin.com/in/bjorn-hedqvist" target="_blank"> LinkedIn <a></p>
                     <p class="btn btn-github"> <a href="https://github.com/bjornhedqvist" target="_blank"> GitHub </a></p>
+                    <!-- easy email button! -->
                     <p class="btn btn-email"> <a class="email" href="mailto:bhedqvist@UCLA.edu"> Email Me! </a></p>
                 </section>
             </article>
         <hr>
         </div>
     </main>
+
     <footer>
+        <!-- a footer crediting the website builder (me!) and including a nice little bear, representing my stamp of authorship. (fun fact: "bjorn" is swedish for: "bear") -->
         <div>
             <br>© Bjorn Hedqvist</br>
-            <img src="images/bear-clip.png" alt="a silouette of a walking bear" class="bear">
+            <img src="images/bear-clip.png" alt="a silouette of a walking bear" class="bear centered sized">
         </div>
     </footer>
     
+    <!-- included link to JS file as good practice / habit -->
     <script src="script.js"> </script>
 </body>
 
+<!-- Thank you for reading my site! Looking forward to your feedback. -->
 </html>
